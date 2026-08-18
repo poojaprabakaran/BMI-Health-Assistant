@@ -13,17 +13,25 @@ st.title("Health Assistant For Fitness 🤖")
 st.subheader("Welcome to health assistance! Place to get information on fitness using BMI value📋")
 
 st.sidebar.subheader("Height")
-height = st.sidebar.number_input('Enter the height in meters:', min_value=0.0, format="%.2f")
+height = st.sidebar.text_input('Enter the height in meters:')
 
 st.sidebar.subheader("Weight")
-weight = st.sidebar.number_input('Enter the weight in kg:', min_value=0.0, format="%.2f")
+weight = st.sidebar.text_input('Enter the weight in kg:')
 
 # BMI calculation
-if height > 0 and weight > 0:
-   bmi = weight/(height**2)
-   st.sidebar.success(f"BMI value is {round(bmi,2)}")
-else:
-    st.sidebar.warning('Please enter positive values.')
+if height and weight:
+    try:
+        height = float(height)
+        weight = float(weight)
+
+        if height > 0 and weight > 0:
+            bmi = weight / (height ** 2)
+            st.sidebar.success(f"BMI value is {bmi:.2f}")
+        else:
+            st.sidebar.warning("Please enter positive values.")
+
+    except ValueError:
+        st.sidebar.error("Please enter valid numeric values.")
 
 # Generate result
 
