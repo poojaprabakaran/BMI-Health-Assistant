@@ -9,24 +9,25 @@ key=os.getenv("GEMINI_API_KEY")
 
 genai.configure(api_key=key)
 
-st.title("Health Assistant For Fitness")
-st.subheader("Welcome to health assistance! Place to get information on fitness using BMI value")
+st.title("Health Assistant For Fitness 🤖")
+st.subheader("Welcome to health assistance! Place to get information on fitness using BMI value📋")
 
-height = st.sidebar.number_input('Enter the height in meters:')
-weight = st.sidebar.number_input('Enter the weight in kg:')
+st.sidebar.subheader("Height")
+height = st.sidebar.number_input('Enter the height in meters:', min_value=0.0, format="%.2f")
 
+st.sidebar.subheader("Weight")
+weight = st.sidebar.number_input('Enter the weight in kg:', min_value=0.0, format="%.2f")
+
+# BMI calculation
 if height > 0 and weight > 0:
- try:
    bmi = weight/(height**2)
    st.sidebar.success(f"BMI value is {round(bmi,2)}")
- except:
-     st.sidebar.information("Please enter positive value")
 else:
-    st.sidebar.error('Height and weight must be greater than 0.')
+    st.sidebar.warning('Please enter positive values.')
 
 # Generate result
 
-input= st.text_input('Ask your question?')
+input= st.text_input('Ask your question here🔍')
 
 model = genai.GenerativeModel('gemini-3.6-flash')
 
@@ -43,7 +44,7 @@ def get_response(input,bmi):
         response = model.generate_content(prompt)
         return response.text
     
-if st.button("Click here"):
+if st.button("Click here🎯"):
         if input:
           with st.spinner('It is loading..'):
             result = get_response(input,bmi)
