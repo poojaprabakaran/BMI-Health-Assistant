@@ -1,8 +1,8 @@
-🤖 Health Assistant for Fitness
+# 🤖 Health Assistant for Fitness
 
 An AI-powered health and fitness assistant built using Python, Streamlit, and Google Gemini API. The application calculates the user's BMI from their height and weight and uses the BMI value as additional context while answering general fitness, diet, and lifestyle-related questions.
 
-📌 About the Project
+## 📌 About the Project
 
 The Health Assistant for Fitness provides an interactive interface where users can enter their height and weight to calculate their BMI and then ask questions related to fitness and healthy lifestyle choices.
 
@@ -10,23 +10,15 @@ The application uses Google Gemini Generative AI to generate responses based on 
 
 ✨ Features
 
-📏 Calculate BMI using height and weight
-
-🧮 Display the calculated BMI value
-
-🤖 Generate AI-powered responses using Google Gemini
-
-🏃 Provide general fitness and lifestyle suggestions
-
-🥗 Answer general diet-related questions
-
-🔍 Use BMI as context when generating relevant responses
-
-⚠️ Provide a disclaimer for medication-related questions
-
-🚫 Avoid diagnosing medical conditions
-
-🎨 Simple and interactive Streamlit interface
+* 📏 Calculate BMI using height and weight
+* 🧮 Display the calculated BMI value
+* 🤖 Generate AI-powered responses using Google Gemini
+* 🏃 Provide general fitness and lifestyle suggestions
+* 🥗 Answer general diet-related questions
+* 🔍 Use BMI as context when generating relevant responses
+* ⚠️ Provide a disclaimer for medication-related questions
+* 🚫 Avoid diagnosing medical conditions
+* 🎨 Simple and interactive Streamlit interface
 
 🛠️ Technologies Used
 
@@ -123,19 +115,13 @@ It is not intended to provide medical diagnosis, treatment, or professional medi
 
 🔮 Future Enhancements
 
-📊 Add BMI category classification
-
-📈 Add BMI tracking and history
-
-🏋️ Provide personalized workout recommendations
-
-🥗 Generate personalized meal suggestions
-
-💬 Add conversational chat history
-
-👤 Add user profiles
-
-📱 Improve mobile responsiveness
+* 📊 Add BMI category classification
+* 📈 Add BMI tracking and history
+* 🏋️ Provide personalized workout recommendations
+* 🥗 Generate personalized meal suggestions
+* 💬 Add conversational chat history
+* 👤 Add user profiles
+* 📱 Improve mobile responsiveness
 
 👩‍💻 Author
 
