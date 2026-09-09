@@ -8,7 +8,7 @@ The Health Assistant for Fitness provides an interactive interface where users c
 
 The application uses Google Gemini Generative AI to generate responses based on the user's question and BMI value where relevant.
 
-✨ Features
+## ✨ Features
 
 * 📏 Calculate BMI using height and weight
 * 🧮 Display the calculated BMI value
@@ -20,7 +20,7 @@ The application uses Google Gemini Generative AI to generate responses based on 
 * 🚫 Avoid diagnosing medical conditions
 * 🎨 Simple and interactive Streamlit interface
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 Python – Application development
 
@@ -32,7 +32,7 @@ python-dotenv – Environment variable management
 
 Pandas – Data handling
 
-🔄 How It Works
+## 🔄 How It Works
 
 The application follows a simple workflow:
 
@@ -55,7 +55,7 @@ BMI = Weight (kg) / Height² (m²)
 
 The calculated BMI is included in the prompt when the user's question is relevant to their BMI.
 
-🤖 Generative AI Implementation
+## 🤖 Generative AI Implementation
 
 The application integrates Google Gemini Generative AI to provide contextual responses to users' health and fitness questions.
 
@@ -71,7 +71,7 @@ Recommend consulting a physician for medication-related questions
 
 This demonstrates the use of prompt engineering and contextual Generative AI within a Streamlit application.
 
-💡 Example Questions
+## 💡 Example Questions
 
 Users can ask questions such as:
 
@@ -85,7 +85,7 @@ How can I maintain a healthy lifestyle?
 
 What exercises can help with weight management?
 
-🔐 API Configuration
+## 🔐 API Configuration
 
 The application uses a Gemini API key stored as an environment variable.
 
@@ -97,7 +97,7 @@ The API key is loaded using python-dotenv.
 
 Important: Never upload your .env file or API key to GitHub. Add .env to your .gitignore file.
 
-▶️ Running the Project
+## ▶️ Running the Project
 
 Install the required dependencies:
 
@@ -107,13 +107,13 @@ Run the Streamlit application:
 
 streamlit run bmi.py
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 This application is intended for general health, fitness, diet, and lifestyle information only.
 
 It is not intended to provide medical diagnosis, treatment, or professional medical advice. Medication-related questions should be discussed with a qualified healthcare professional.
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 * 📊 Add BMI category classification
 * 📈 Add BMI tracking and history
@@ -123,8 +123,8 @@ It is not intended to provide medical diagnosis, treatment, or professional medi
 * 👤 Add user profiles
 * 📱 Improve mobile responsiveness
 
-👩‍💻 Author
+## 👩‍💻 Author
 
-Pooja Prabakaran
+** Pooja Prabakaran **
 
 Built as a practical Generative AI and Streamlit project to explore the integration of Google's Gemini API with a Python-based interactive application.
