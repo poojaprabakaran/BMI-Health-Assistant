@@ -11,14 +11,23 @@ The application uses Google Gemini Generative AI to generate responses based on 
 ✨ Features
 
 📏 Calculate BMI using height and weight
+
 🧮 Display the calculated BMI value
+
 🤖 Generate AI-powered responses using Google Gemini
+
 🏃 Provide general fitness and lifestyle suggestions
+
 🥗 Answer general diet-related questions
+
 🔍 Use BMI as context when generating relevant responses
+
 ⚠️ Provide a disclaimer for medication-related questions
+
 🚫 Avoid diagnosing medical conditions
+
 🎨 Simple and interactive Streamlit interface
+
 🛠️ Technologies Used
 
 Python – Application development
@@ -115,11 +124,17 @@ It is not intended to provide medical diagnosis, treatment, or professional medi
 🔮 Future Enhancements
 
 📊 Add BMI category classification
+
 📈 Add BMI tracking and history
+
 🏋️ Provide personalized workout recommendations
+
 🥗 Generate personalized meal suggestions
+
 💬 Add conversational chat history
+
 👤 Add user profiles
+
 📱 Improve mobile responsiveness
 
 👩‍💻 Author
