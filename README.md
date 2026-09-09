@@ -22,15 +22,11 @@ The application uses Google Gemini Generative AI to generate responses based on 
 
 ## 🛠️ Technologies Used
 
-Python – Application development
-
-Streamlit – Interactive web application
-
-Google Gemini API – Generative AI responses
-
-python-dotenv – Environment variable management
-
-Pandas – Data handling
+* Python – Application development
+* Streamlit – Interactive web application
+* Google Gemini API – Generative AI responses
+* python-dotenv – Environment variable management
+* Pandas – Data handling
 
 ## 🔄 How It Works
 
@@ -61,29 +57,21 @@ The application integrates Google Gemini Generative AI to provide contextual res
 
 The user's BMI and question are dynamically incorporated into a prompt before being sent to the Gemini model. The prompt instructs the model to:
 
-Consider the user's BMI when relevant
-
-Provide general fitness, diet, and lifestyle recommendations
-
-Avoid diagnosing medical conditions
-
-Recommend consulting a physician for medication-related questions
+* Consider the user's BMI when relevant
+* Provide general fitness, diet, and lifestyle recommendations
+* Avoid diagnosing medical conditions
+* Recommend consulting a physician for medication-related questions
 
 This demonstrates the use of prompt engineering and contextual Generative AI within a Streamlit application.
 
 ## 💡 Example Questions
 
-Users can ask questions such as:
-
-What exercises are suitable for me?
-
-How can I improve my fitness?
-
-What type of diet should I follow?
-
-How can I maintain a healthy lifestyle?
-
-What exercises can help with weight management?
+* Users can ask questions such as:
+* What exercises are suitable for me?
+* How can I improve my fitness?
+* What type of diet should I follow?
+* How can I maintain a healthy lifestyle?
+* What exercises can help with weight management?
 
 ## 🔐 API Configuration
 
