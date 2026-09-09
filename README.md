@@ -137,8 +137,6 @@ It is not intended to provide medical diagnosis, treatment, or professional medi
 
 📱 Improve mobile responsiveness
 
-🛡️ Add improved API error handling
-
 👩‍💻 Author
 
 Pooja Prabakaran
