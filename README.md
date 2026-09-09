@@ -113,6 +113,6 @@ It is not intended to provide medical diagnosis, treatment, or professional medi
 
 ## 👩‍💻 Author
 
-** Pooja Prabakaran **
+**Pooja Prabakaran**
 
 Built as a practical Generative AI and Streamlit project to explore the integration of Google's Gemini API with a Python-based interactive application.
